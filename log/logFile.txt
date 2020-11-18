@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-11-18T15:09:54</date>
+  <millis>1605730194988</millis>
+  <sequence>1</sequence>
+  <logger>MyLog</logger>
+  <level>SEVERE</level>
+  <class>org.example.Demo</class>
+  <method>logMessage</method>
+  <thread>14</thread>
+  <message>November 18, 2020 Log message...</message>
+</record>
+</log>
