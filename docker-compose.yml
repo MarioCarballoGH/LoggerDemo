@@ -1,0 +1,15 @@
+version: '2.1'
+services:  
+  app:
+    image: app
+    build:
+      context: ./
+      dockerfile: DockerFile
+    ports:
+      - '8080:8080'
+    restart: always
+    networks:
+      - back-tier
+networks:
+  back-tier:
+    driver: bridge

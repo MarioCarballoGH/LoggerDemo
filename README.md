@@ -17,8 +17,16 @@ $  git clone https://github.com/MarioCarballoGH/LoggerDemo.git
 
 * ##### Build the project by running `$ mvn clean install` inside the project folder.
 
-* ##### Run project by using the following command:
+* ##### Run project with Maven:
 ```
+// Use using the following command:
 $ mvn compile exec:java -Dexec.mainClass="org.example.App" -Dexec.cleanupDaemonThreads=false
 ```
+* ##### Or with Docker:
+```
+// Build and start the container by running :
+$ docker-compose up
 
+// Stop Docker Container
+$ docker-compose down
+```
